@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/qrscanner"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="QR Check" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ID Check" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Validated Students" />
+        <item
+            android:id="@+id/nav_raffle"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Raffle Draw" />
+
+
+    </group>
+</menu>
